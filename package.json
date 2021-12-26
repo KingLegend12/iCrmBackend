@@ -1,0 +1,31 @@
+{
+  "name": "agile_backend",
+  "version": "1.0.0",
+  "description": "API backend side app",
+  "main": "app.js",
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Driss Jaidi",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.13",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "or": "^0.2.0",
+    "redis": "^3.1.2"
+  }
+}
